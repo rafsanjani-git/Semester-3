@@ -1,0 +1,10 @@
+\\vmware-host\shared folders\documents\visual studio 2012\Projects\tugas 4\tugas 4\bin\Debug\tugas 4.exe.config
+\\vmware-host\Shared Folders\Documents\Visual Studio 2012\Projects\tugas 4\tugas 4\bin\Debug\tugas 4.exe
+\\vmware-host\Shared Folders\Documents\Visual Studio 2012\Projects\tugas 4\tugas 4\bin\Debug\tugas 4.pdb
+\\vmware-host\Shared Folders\Documents\Visual Studio 2012\Projects\tugas 4\tugas 4\bin\Debug\tugas 4.xml
+\\vmware-host\Shared Folders\Documents\Visual Studio 2012\Projects\tugas 4\tugas 4\obj\Debug\tugas_4.Form1.resources
+\\vmware-host\Shared Folders\Documents\Visual Studio 2012\Projects\tugas 4\tugas 4\obj\Debug\tugas_4.Resources.resources
+\\vmware-host\Shared Folders\Documents\Visual Studio 2012\Projects\tugas 4\tugas 4\obj\Debug\tugas 4.vbproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\Documents\Visual Studio 2012\Projects\tugas 4\tugas 4\obj\Debug\tugas 4.exe
+\\vmware-host\Shared Folders\Documents\Visual Studio 2012\Projects\tugas 4\tugas 4\obj\Debug\tugas 4.xml
+\\vmware-host\Shared Folders\Documents\Visual Studio 2012\Projects\tugas 4\tugas 4\obj\Debug\tugas 4.pdb
