@@ -1,0 +1,192 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+aplikasipenjualankopi2
+</name>
+</assembly>
+<members>
+<member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources._001_automatic">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources._002_blender">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources._003_coffee_cup">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources._004_coffee_cup">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources._005_coffee_cup">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources._006_coffee_cup">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources._007_coffee_cup">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources._008_coffee_cup">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources._009_coffee_cup">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources._010_coffee_grinder">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources._011_coffee_grinder">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources._012_coffee_shop">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources._013_coffee_shop">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources._014_bar_counter">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources._015_bar_counter">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources._016_drip">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources._017_espresso">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources._018_heart">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources._019_instant_coffee">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources._020_jar">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources._021_jar">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources._022_milk_frother">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources._023_moka_pot">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources._024_outdoor">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources._025_shop_sign">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources._026_syphon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources._027_syrup">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources._028_tea_pot">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources._029_tea_mug">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources._030_whipped_cream">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources.arabica_talagabodas">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources.arabika_garut">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources.arabika_kerinci">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources.arabika_kintamani">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources.arabika_manggarai">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources.arabika_padang">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources.arabika_temanggung">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources.arabika_wamena">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources.Screen_Shot_2019_10_16_at_3_03_37_PM">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources.Screen_Shot_2019_10_16_at_3_03_54_PM">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources.Screen_Shot_2019_10_16_at_3_24_35_PM">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:aplikasi_penjualan_kopi2.My.Resources.Resources.splash">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:aplikasi_penjualan_kopi2.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

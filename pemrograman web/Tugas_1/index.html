@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bolang-cuk</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div id="header">
+	<div id="slider">
+	<div id="slide-holder">
+	  	<div class="mySlides"><img src="img/01.jpg" style="width:100%"alt="" /></div>
+	    <div class="mySlides"><img src="img/02.jpg" style="width:100%"alt="" /></div>
+	    <div class="mySlides"><img src="img/04.jpg" style="width:100%"alt="" /></div>
+	    <div class="mySlides"><img src="img/05.jpg" style="width:100%"alt="" /></div>
+	    <div class="mySlides"><img src="img/06.jpg" style="width:100%"alt="" /></div>
+	    <div class="mySlides"><img src="img/08.jpg" style="width:100%"alt="" /></div>
+	    
+	</div>
+</div>
+
+    
+          
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+ 
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("demo");
+              var captionText = document.getElementById("caption");
+              if (n > slides.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " active";
+              captionText.innerHTML = dots[slideIndex-1].alt;
+            }
+            </script>            
+</div>
+
+<!--BAGIAN HEADER-->
+
+<div class="navbar">
+    <a href="#home">Home</a>
+    <div class="subnav">
+      <button class="subnavbtn">Category</button>
+      <div class="subnav-content">
+        <a href="#company">Funny</a>
+        <a href="#team">Industry</a>
+        <a href="#careers">education</a>
+      </div>
+    </div> 
+    <div class="subnav">
+      <button class="subnavbtn">Link1</button>
+      <div class="subnav-content">
+        <a href="#">aaaa</a>
+        <a href="#">ssss</a>
+        <a href="#">ccccc</a>
+        <a href="#">asasasa</a>
+      </div>
+    </div> 
+    <div class="subnav">
+      <button class="subnavbtn">link2</i></button>
+      <div class="subnav-content">
+        <a href="#">wqwqwq</a>
+        <a href="#">qqqqqq</a>
+        <a href="#">eeeeww</a>
+        <a href="#">fdffdfdf</a>
+      </div>
+    </div>
+    <a href="#">kontak</a>
+
+    <form>
+        <input type="text" name="search" placeholder="Search..">
+      </form>
+  </div>
+
+<!--BAGIAN MENU-->
+
+<div id="wrapper">
+    <div id="content">
+        <img class="gambarr" src="img/logowaw.gif">
+      
+        <p class="textt">Tempat Wisata di JAWA TIMUR yang Paling Hits</p>
+
+          <div class="responsive">
+              <div class="gallery">
+                <a target="_blank" href="img/07.jpg">
+                  <img src="img/07.jpg" width="600" height="400">
+                </a>
+                <div class="desc">Taman Nasional Baluran</div>
+              </div>
+            </div>
+            
+            <div class="responsive">
+              <div class="gallery">
+                <a target="_blank" href="img/02.jpg">
+                  <img src="img/02.jpg" width="600" height="400">
+                </a>
+                <div class="desc">Kawah Ijen</div>
+              </div>
+            </div>
+            
+            <div class="responsive">
+              <div class="gallery">
+                <a target="_blank" href="img/03.jpg">
+                  <img src="img/03.jpg" alt="Northern Lights" width="600" height="400">
+                </a>
+                <div class="desc">Jatim Park</div>
+              </div>
+            </div>
+            
+            <div class="responsive">
+              <div class="gallery">
+                <a target="_blank" href="img/04.jpg">
+                  <img src="img/04.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">Museum Angkut</div>
+              </div>
+            </div>
+            
+            <div class="responsive">
+                <div class="gallery">
+                  <a target="_blank" href="img/05.jpg">
+                    <img src="img/05.jpg" alt="Mountains" width="600" height="400">
+                  </a>
+                  <div class="desc">Pantai Klayar</div>
+                </div>
+            </div>
+
+             <div class="responsive">
+                 <div class="gallery">
+                   <a target="_blank" href="img/06.jpg">
+                     <img src="img/06.jpg" width="600" height="400">
+                   </a>
+                   <div class="desc">Gili Labak</div>
+                 </div>
+              </div>
+  
+              <div class="responsive">
+                  <div class="gallery">
+                    <a target="_blank" href="img/08.jpg">
+                      <img src="img/08.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Candi Penataran</div>
+                  </div>
+               </div>
+           
+               <div class="responsive">
+                  <div class="gallery">
+                    <a target="_blank" href="img/09.jpg">
+                      <img src="img/11.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Wisata Bahari Lamongan</div>
+                  </div>
+               </div>
+               <div class="center">
+                  <div class="pagination">
+                  <a href="#">&laquo;</a>
+                  <a href="#">1</a>
+                  <a href="#" class="active">2</a>
+                  <a href="#">3</a>
+                  <a href="#">4</a>
+                  <a href="#">5</a>
+                  <a href="#">6</a>
+                  <a href="#">&raquo;</a>
+                  </div>
+                </div>
+              </div>
+     </div>      
+</div>
+
+<!--ISI CONTENT-->
+
+<div id="footer"></div>
+</body>
+</html>	

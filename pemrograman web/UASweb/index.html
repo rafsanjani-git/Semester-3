@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TA Semester 3</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="stylebaru.css" >
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>
+		$(function() {
+			var pull 		= $('#pull'); // Variabel tombol navigasi (akan muncul hanya pada perangkat mobile)
+				menu 		= $('nav ul'); // Variabel menu
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 600 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
+</head>
+<body>
+
+	<!-- awal header foto -->
+	<table>
+		<tr>
+			<td ><img src="kopi_gambar\kopi_bubuk\black karimata.jpeg" class="nike"></td>
+			<td align="center" class="head-foto">
+			<img src="kopi_gambar\kopi_bubuk\aceh gayo.jpeg" >
+			<img src="kopi_gambar\kopi_bubuk\bali kintamani.jpeg">
+			<img src="kopi_gambar\kopi_bubuk\classic blend.jpeg">
+			<img src="kopi_gambar\kopi_bubuk\java ijen.jpeg">
+			<img src="kopi_gambar\kopi_bubuk\aceh gayo.jpeg">
+			<img src="kopi_gambar\kopi_bubuk\papua wamena.jpeg">
+			<img src="kopi_gambar\kopi_bubuk\robusta lampung.jpeg">
+			<img src="kopi_gambar\kopi_bubuk\sumatra mandheling.jpeg">
+					<div class = "head-foto" class="slideshow-container">
+
+			<div class="mySlides fade" align="center">
+  			<img src="kopi_gambar\kopi_bubuk\aceh gayo.jpeg">
+			</div>
+
+			<div class="mySlides fade" align="center">
+			<img src="kopi_gambar\kopi_bubuk\bali kintamani.jpeg">	
+			</div>
+			
+			<div class="mySlides fade" align="center">
+  			<img src="kopi_gambar\kopi_bubuk\classic blend.jpeg">
+			</div>
+
+			<div class="mySlides fade" align="center">
+			<img src="kopi_gambar\kopi_bubuk\java ijen.jpeg">	
+			</div>
+
+			<div class="mySlides fade" align="center">
+  			<img src="kopi_gambar\kopi_bubuk\aceh gayo.jpeg">
+			</div>
+
+			<div class="mySlides fade" align="center">
+			<img src="kopi_gambar\kopi_bubuk\bali kintamani.jpeg">	
+			</div>
+			
+			<div class="mySlides fade" align="center">
+  			<img src="kopi_gambar\kopi_bubuk\classic blend.jpeg">
+			</div>
+
+			<div class="mySlides fade" align="center">
+			<img src="kopi_gambar\kopi_bubuk\java ijen.jpeg">	
+			</div>
+			
+		
+			<div style="text-align:center">
+  				<span class="dot"></span> 
+  				<span class="dot"></span> 
+  				<span class="dot"></span>
+  				<span class="dot"></span> 
+  				<span class="dot"></span> 
+  				<span class="dot"></span> 
+  				<span class="dot"></span>
+  				<span class="dot"></span>  
+			</div>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+	</div>
+			</td>
+			<td style ="margin-left: -20px;">
+				<img  src="kopi_gambar\kopi_bubuk\aceh gayo.jpeg" class="adidas">
+			</td>
+			
+		</tr>
+	</table>
+	<!-- akhir header foto -->
+
+
+	<!-- awal navbar menu -->
+	<nav class="head-menu">
+		<a href="about.html" id="pull" >Menu</a>
+		
+		<ul class="head-menu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="index.html">Kopi</a></li>
+			<li><a href="index.html">Alat Brewing</a></li>
+			<li><a href="index.html">Aksesosir</a></li>
+			<li><a href="index.html">Hasil Olahan Kopi</a></li>
+			<li><a href="form.html">Daftar</a></li>
+			<li><a href="index.html">Masuk</a></li>
+			<li><a href="profil.html">Profil</a></li>
+		</ul>
+	</nav>
+	<!-- akhir navbar menu -->
+
+
+	<!-- awal konten -->
+	<div class="konten">
+
+		<!-- akhir list menu -->
+		<div class="menu">
+			<ul>
+			<li><a href="about.html">Robusta</a></li><br>
+			<li><a href="about.html">Arabika</a></li><br>
+			<li><a href="about.html">Blend</a></li><br>
+		</ul>	
+		</div>
+		<!-- akhir list menu -->
+
+
+		<!-- awal isi konten -->
+		<div class="isi-konten" >
+			<p>
+				Pada tahun 2011, Indonesia menduduki peringkat ketiga sebagai penghasil kopi terbesar di dunia setelah Brazil dan Vietnam. Bukan hal yang mengejutkan memang, mengingat varietas kopi kita yang begitu kaya. Indonesia juga dikenal sebagai penghasil kopi luwak terbaik di dunia. Cita rasanya juga bervariasi mengingat kandungan kimia tanah di berbagai daerah di Indonesia juga berbeda-beda. Berikut sejumlah varietas kopi Nusantara yang layak kita kenali, sayangi, dan banggakan.<br><br>
+				
+			<b>Kopi Gayo Aceh</b><br><br>
+				Kopi arabika yang ditanam sejak 1918 di dataran tinggi Gayo, Aceh, ini cita rasanya sudah melanglang buana ke dunia internasional. Umumnya berkarakter rendah asam, rasanya gurih dengan aroma yang tajam.<br><br>
+				
+			<b>Kopi Mandailing</b><br><br>
+				Kopi Mandailing yang mendunia sejak 1800-an ini memiliki tekstur yang halus namun 'tajam' di lidah. Kadar asamnya sangat rendah, namun rasanya sangat kental, padat, serta berkarakter rasa 'tanah'.
+				<br><br>
+
+			<b>Kopi Luwak</b><br><br>
+				Salah satu daerah penghasil kopi luwak terbesar adalah Pagaralam, Sumatra Selatan. Banyak sekali binatang luwak liar yang berkembang biak di sana. Kopi luwak liar menghasilkan kopi kualitas tinggi berkarakter lembut, sedikit manis, dan after taste floral yang tahan lama di lidah.
+				<br><br>
+
+			<b>Kopi Bengkulu</b><br><br>
+				Kopi dari Bengkulu yang didominasi jenis kopi robusta umumnya beraroma cokelat dengan rasa yang lembut. Ada biji kopi Bengkulu yang sangat tipis, sehingga hampir tidak meninggalkan ampas saat diseduh, namun cukup pahit.
+				<br><br>
+
+			<b>Kopi Jawa</b><br><br>
+				Kopi yang terkenal dengan nama Java Coffee ini memiliki karakter kopi kental, hitam pekat, namun agak manis dan berampas dengan aroma yang lembut. Kopinya yang berkualitas terasa lembut, after taste rasa herbal yang tahan lama. Produksi kopi arabika yang terkenal di dataran tinggi Ijen, Jawa Timur.<br><br>
+
+			<b>Kopi Bali</b><br><br>
+				Kopi Bali -sering disebut Kopi Bali Kintamani- adalah kopi paling 'manis' di antara kopi Indonesia lainnya. Kadang terasa aroma jeruk, tak terlalu pekat, rasanya ringan meski kadar asamnya cukup tinggi.<br><br>
+
+			<b>Kopi Toraja</b><br><br>
+				Salah satu kopi arabika yang digilai di dunia ini cukup asam dan sedikit pahit. Rasa kopinya lebih kuat di lidah, karena teksturnya padat dan kaya rasa rempah. Aromanya pun sangat harum dan rasa pahitnya langsung hilang di lidah. Umumnya, kopi Sulawesi memiliki rasa khas seperti rasa tanah dan hutan. <br><br>
+
+			<b>Kopi Flores</b><br><br>
+				Jenis kopi arabika yang sudah mendunia ini terkenal dengankarakter rasa cokelat dan tembakau, dengan tekstur yang padat. Ketika diminum kadang ada rasa pahit yang diselingi rasa bumbu.<br><br>
+
+			<b>Kopi Papua (Wamena)</b><br><br>
+				Kopi arabika yang tumbuh di ketinggian 15.000 meter dpl ini memiliki rasa khas cokelat dan tembakau. Aromanya lembut, rasa pahitnya akan terasa sempurna bila dipadukan dengan gula aren.<br><br>
+			</p>
+		</div>
+		<!-- akhir isi konten -->
+
+
+
+		<!--akhir konten-->
+
+</body>
+</html>

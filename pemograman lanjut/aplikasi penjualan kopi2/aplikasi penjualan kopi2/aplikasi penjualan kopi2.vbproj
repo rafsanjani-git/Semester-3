@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8F95DFC3-D979-4403-B573-9B5226F434ED}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>aplikasi_penjualan_kopi2.My.MyApplication</StartupObject>
+    <RootNamespace>aplikasi_penjualan_kopi2</RootNamespace>
+    <AssemblyName>aplikasi penjualan kopi2</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>true</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>aplikasi penjualan kopi2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>aplikasi penjualan kopi2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>screen_shot_2019_10_16_at_3_03_37_pm_Bjw_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>31DC0D749E78846A6D7271CE8351C14C2A1377FE</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>aplikasi penjualan kopi2_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\..\..\Downloads\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\..\..\..\Desktop\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="biji_kopi.Designer.vb">
+      <DependentUpon>biji_kopi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="biji_kopi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grinder.Designer.vb">
+      <DependentUpon>Grinder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Grinder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="input_kopi.Designer.vb">
+      <DependentUpon>input_kopi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="input_kopi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lOGIN_admin.Designer.vb">
+      <DependentUpon>lOGIN_admin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="lOGIN_admin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuAwal.Designer.vb">
+      <DependentUpon>menuAwal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="menuAwal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PELANGGAN.Designer.vb">
+      <DependentUpon>PELANGGAN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PELANGGAN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="project2.Designer.vb">
+      <DependentUpon>project2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="project2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SPLASHSCREEN.Designer.vb">
+      <DependentUpon>SPLASHSCREEN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SPLASHSCREEN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="biji_kopi.resx">
+      <DependentUpon>biji_kopi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grinder.resx">
+      <DependentUpon>Grinder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="input_kopi.resx">
+      <DependentUpon>input_kopi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lOGIN_admin.resx">
+      <DependentUpon>lOGIN_admin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuAwal.resx">
+      <DependentUpon>menuAwal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PELANGGAN.resx">
+      <DependentUpon>PELANGGAN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="project2.resx">
+      <DependentUpon>project2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SPLASHSCREEN.resx">
+      <DependentUpon>SPLASHSCREEN.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="aplikasi penjualan kopi2_TemporaryKey.pfx" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screen Shot 2019-10-16 at 3.03.37 PM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screen Shot 2019-10-16 at 3.03.54 PM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screen Shot 2019-10-16 at 3.24.35 PM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001-automatic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\002-blender.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\003-coffee cup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\004-coffee cup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\005-coffee cup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\006-coffee cup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\007-coffee cup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\008-coffee cup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\009-coffee cup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\010-coffee grinder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\011-coffee grinder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\012-coffee shop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\013-coffee shop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\014-bar counter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\015-bar counter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\016-drip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\017-espresso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\018-heart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\019-instant coffee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\020-jar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\021-jar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\022-milk frother.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\023-moka pot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\024-outdoor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\025-shop sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\026-syphon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\027-syrup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\028-tea pot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\029-tea mug.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\030-whipped cream.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arabika wamena.jpg" />
+    <None Include="Resources\arabika temanggung.jpg" />
+    <None Include="Resources\arabika padang.jpg" />
+    <None Include="Resources\arabika manggarai.jpeg" />
+    <None Include="Resources\arabika kintamani.jpg" />
+    <None Include="Resources\arabika kerinci.jpg" />
+    <None Include="Resources\arabika garut.jpg" />
+    <None Include="Resources\arabica talagabodas.jpeg" />
+    <Content Include="screen_shot_2019_10_16_at_3_03_37_pm_Bjw_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
